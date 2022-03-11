@@ -1,0 +1,37 @@
+@charset "utf-8"; 
+html,body {
+    --safe-area-inset-top: env(safe-area-inset-top);
+    --safe-area-inset-bottom: env(safe-area-inset-bottom);
+    --safe-area-inset-left: env(safe-area-inset-left);
+    --safe-area-inset-right: env(safe-area-inset-right);
+    min-height: 100vh;
+    /* min-height: calc(100vh + (var(--safe-area-inset-top) + var(--safe-area-inset-bottom))); */
+    min-height:calc(var(--vh, 1vh) * 100);
+}
+html.hidden,
+body.hidden {overflow:hidden;}
+html, body, div, h1, h2, h3, h4, h5, h6, span, object, iframe,
+ p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i, a,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, textarea, select,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary, button,
+time, mark, audio, video {
+    margin:0; padding:0; border:0; outline:0; letter-spacing:-0.02em;  color:#222130; 
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+    vertical-align:baseline; background:transparent; box-sizing: border-box; 
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {display:block}
+body {
+    line-height:1; -webkit-text-size-adjust:none; -moz-text-size-adjust:none; -ms-text-size-adjust:none; 
+    -webkit-font-smooting:antialiased; -moz-font-smoothing:grayscale; 
+}
+
+.hi{
+    color: aqua;
+}
