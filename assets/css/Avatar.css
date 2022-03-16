@@ -1,0 +1,410 @@
+@import url(/assets/css/foundation.css);
+
+.wrap {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*프로필 이미지가 있는 아바타 default*/
+
+.avatar-XXS { 
+    display: inline-block;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    border: 1px solid var(--cool-gray40);
+    box-sizing: border-box;
+    border-radius: 100%;
+    background-image: url(/assets/images/avatar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.avatar-XS { 
+    display: inline-block;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #DCDEE3;
+    box-sizing: border-box;
+    border-radius: 100%;
+    background-image: url(/assets/images/avatar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.avatar-S { 
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #DCDEE3;
+    box-sizing: border-box;
+    border-radius: 100%;
+    background-image: url(/assets/images/avatar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.avatar-M { 
+    display: inline-block;
+    position: relative;
+    width: 48px;
+    height: 48px;
+    border: 1px solid #DCDEE3;
+    box-sizing: border-box;
+    border-radius: 100%;
+    background-image: url(/assets/images/avatar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.avatar-L { 
+    display: inline-block;
+    position: relative;
+    width: 56px;
+    height: 56px;
+    border: 1px solid #DCDEE3;
+    box-sizing: border-box;
+    border-radius: 100%;
+    background-image: url(/assets/images/avatar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.avatar-XL { 
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+    border: 1px solid #DCDEE3;
+    box-sizing: border-box;
+    border-radius: 100%;
+    background-image: url(/assets/images/avatar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.avatar-XXL { 
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #DCDEE3;
+    box-sizing: border-box;
+    border-radius: 100%;
+    background-image: url(/assets/images/avatar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+/*닷이 있는 아바타*/
+
+.avatarDot {
+    display: inline-block;
+}
+
+.avatarDot .avatar-XXS .dot-XS {
+    position: relative;
+    margin-top: 16px;
+    margin-left: 16px;
+    width: 8px;
+    height: 8px;
+    background: var(--green60);
+    border: 1px solid var(--white);
+    border-radius: 100%;
+    box-sizing: border-box;
+}
+
+.avatarDot .avatar-XS .dot-S {
+    position: relative;
+    margin-top: 22px;
+    margin-left: 22px;
+    width: 10px;
+    height: 10px;
+    background: var(--green60);;
+    border: 1px solid var(--white);
+    border-radius: 100%;
+    box-sizing: border-box;
+}
+
+.avatarDot .avatar-S .dot-M {
+    position: relative;
+    margin-top: 26px;
+    margin-left: 26px;
+    width: 14px;
+    height: 14px;
+    background: var(--green60);
+    border: 2px solid var(--white);
+    border-radius: 100%;
+    box-sizing: border-box;
+}
+
+.avatarDot .avatar-M .dot-M {
+    position: relative;
+    margin-top: 34px;
+    margin-left: 34px;
+    width: 14px;
+    height: 14px;
+    background: var(--green60);
+    border: 2px solid var(--white);
+    border-radius: 100%;
+    box-sizing: border-box;
+}
+
+.avatarDot .avatar-L .dot-L {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 16px;
+    height: 16px;
+    background: var(--green60);
+    border: 2px solid var(--white);
+    border-radius: 100%;
+    box-sizing: border-box;
+}
+
+.avatarDot .avatar-XL .dot-L {
+    position: relative;
+    margin-top: 48px;
+    margin-left: 48px;
+    width: 16px;
+    height: 16px;
+    background: var(--green60);
+    border: 2px solid var(--white);
+    border-radius: 100%;
+    box-sizing: border-box;
+}
+
+.avatarDot .avatar-XXL .dot-XL {
+    position: relative;
+    margin-top: 60px;
+    margin-left: 60px;
+    width: 20px;
+    height: 20px;
+    background: var(--green60);
+    border: 2px solid var(--white);
+    border-radius: 100%;
+    box-sizing: border-box;
+}
+
+
+
+/*노티피케이션이 있는 아바타*/
+
+.avatarNoti {
+    display: inline-block;
+}
+
+.avatarNoti .avatar-XXS .dot-XS {
+    position: relative;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    width: 8px;
+    height: 8px;
+    background: var(--red50);
+    border: 1px solid var(--white);
+    border-radius: 100%;
+    box-sizing: border-box;
+}
+
+.avatarNoti .avatar-XS .dot-S {
+    position: relative;
+    margin-bottom: 22px;
+    margin-left: 22px;
+    width: 10px;
+    height: 10px;
+    background: var(--red50);
+    border: 1px solid var(--white);
+    border-radius: 100%;
+    box-sizing: border-box;
+}
+
+.avatarNoti .avatar-S .dot-M {
+    position: relative;
+    margin-bottom: 26px;
+    margin-left: 26px;
+    width: 14px;
+    height: 14px;
+    background: var(--red50);
+    border: 2px solid var(--white);
+    border-radius: 100%;
+    box-sizing: border-box;
+}
+
+
+
+.noti-S {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-color: var(--red50);
+    padding-top: 1px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid var(--white);
+    box-sizing: border-box;
+    color: var(--white);
+}
+
+.avatarNoti .avatar-M .noti-S {
+    margin-bottom: 28px;
+    margin-left: 28px;
+}
+
+.noti-M {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22px;
+    height: 22px;
+    background-color: var(--red50);
+    text-align: center;
+    border-radius: 22px;
+    border: 2px solid var(--white);
+    box-sizing: border-box;
+    color: var(--white);
+}
+
+.avatarNoti .avatar-L .noti-M {
+    margin-bottom: 34px;
+    margin-left: 34px;
+}
+
+.noti-L {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    background-color: var(--red50);
+    text-align: center;
+    border-radius: 24px;
+    border: 2px solid var(--white);
+    box-sizing: border-box;
+    color: var(--white);
+}
+
+.avatarNoti .avatar-XL .noti-L {
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+.noti-XL {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    background-color: var(--red50);
+    padding-top: 1px;
+    text-align: center;
+    border-radius: 28px;
+    border: 2px solid var(--white);
+    box-sizing: border-box;
+    color: var(--white);
+}
+
+
+.avatarNoti .avatar-XXL .noti-XL {
+    margin-bottom: 52px;
+    margin-left: 52px;
+}
+
+
+/*아이콘이 있는 dot avatar*/
+
+.icoDot-S {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-color: var(--blue60);
+    border-radius: 100%;
+    border: 2px solid var(--white);
+    box-sizing: border-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.avatarIco .avatar-M .icoDot-S {
+    margin-top: 28px;
+    margin-left: 28px;
+}
+
+.icoDot-M {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22px;
+    height: 22px;
+    background-color: var(--blue60);
+    border-radius: 100%;
+    border: 2px solid var(--white);
+    box-sizing: border-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.avatarIco .avatar-L .icoDot-M {
+    margin-top: 34px;
+    margin-left: 34px;
+}
+
+.icoDot-L {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    background-color: var(--blue60);
+    border-radius: 100%;
+    border: 2px solid var(--white);
+    box-sizing: border-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.avatarIco .avatar-XL .icoDot-L {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+
+.icoDot-XL {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    background-color: var(--blue60);
+    border-radius: 100%;
+    border: 2px solid var(--white);
+    box-sizing: border-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.avatarIco .avatar-XXL .icoDot-XL {
+    margin-top: 52px;
+    margin-left: 52px;
+}

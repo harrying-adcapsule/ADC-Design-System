@@ -1,0 +1,479 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+html.hidden,
+body.hidden {overflow:hidden;}
+html, body, div, h1, h2, h3, h4, h5, h6, span, object, iframe,
+ p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i, a,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, textarea, select,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary, button,
+time, mark, audio, video {
+    margin:0; padding:0; border:0; outline:0; font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+    vertical-align:baseline; background:transparent; box-sizing: border-box; 
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {display:block}
+body {
+    line-height:1; -webkit-text-size-adjust:none; -moz-text-size-adjust:none; -ms-text-size-adjust:none; 
+    -webkit-font-smooting:antialiased; -moz-font-smoothing:grayscale; 
+}
+
+ol, ul, li {list-style:none}
+img {max-width:100%; vertical-align:top}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Pretendard" !important;
+  }
+
+:root {
+
+    /*color*/
+    
+    --white: #ffffff;
+    --black: #000000;
+    
+    --warm-gray10:#F9F9F9;
+    --warm-gray20:#F3F3F3;
+    --warm-gray30:#EDEDED;
+    --warm-gray40:#E6E6E6;
+    --warm-gray50:#DADADA;
+    --warm-gray60:#C4C4C4;
+    --warm-gray70:#A0A0A0;
+    --warm-gray80:#858585;
+    --warm-gray90:#515151;
+    --warm-gray100:#2D2D2D;
+    
+    --cool-gray10:#FAFAFA;
+    --cool-gray20:#F3F3F3;
+    --cool-gray30:#EBEBEB;
+    --cool-gray40:#DCDEE3;
+    --cool-gray50:#BEC1C8;
+    --cool-gray60:#9B9FA8;
+    --cool-gray70:#71747D;
+    --cool-gray80:#515359;
+    --cool-gray90:#363A40;
+    --cool-gray100:#222427;
+    
+    --blue10:#E6F3FF;
+    --blue20:#CEE6FF;
+    --blue30:#9CCDFF;
+    --blue40:#6BB5FF;
+    --blue50:#3A9CFF;
+    --blue60:#0883FF;
+    --blue70:#0777E4;
+    --blue80:#036BD4;
+    --blue90:#025CB8;
+    --blue100:#004E9D;
+    
+    --green10:#E8F9F0;
+    --green20:#D1F4E1;
+    --green30:#A3E9C4;
+    --green40:#75DDA6;
+    --green50:#47D289;
+    --green60:#19C76B;
+    --green70:#07BA5B;
+    --green80:#05A852;
+    --green90:#039849;
+    --green100:#008C42;
+    
+    --red10:#FDEBEB;
+    --red20:#FCD7D7;
+    --red30:#F9AFAF;
+    --red40:#F58787;
+    --red50:#F25F5F;
+    --red60:#EF3737;
+    }
+    
+/*폰트사이즈 Title*/
+
+.title1-700 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+}
+
+.title1-600 {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 60px;
+}
+
+.title1-500 {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 60px;
+}
+
+.title1-400 {
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 60px;
+}
+
+.title1-300 {
+    font-weight: 300;
+    font-size: 44px;
+    line-height: 60px;
+}
+
+.title2-700 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.title2-600 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.title2-500 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.title2-400 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.title2-300 {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.title3-700 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.title3-600 {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.title3-500 {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.title3-400 {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.title3-300 {
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 36px;
+}
+
+/*폰트사이즈 Head*/
+
+.head1-700 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.head1-600 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.head1-500 {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.head1-400 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.head2-700 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.head2-600 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.head2-500 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.head2-400 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.head2-700 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.head2-600 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.head2-500 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.head2-400 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.head3-700 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.head3-600 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.head3-500 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.head3-400 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+/*폰트사이즈 body*/
+
+.body1-700 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.body1-600 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.body1-500 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.body1-400 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.body2-700 {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.body2-600 {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.body2-500 {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.body2-400 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.body3-700 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.body3-600 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.body3-500 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.body3-400 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.body4-700 {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.body4-600 {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.body4-500 {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.body4-400 {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.body5-700 {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.body5-600 {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.body5-500 {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.body5-400 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.caption1-700 {
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 17px;
+}
+
+.caption1-600 {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 17px;
+}
+
+.caption1-500 {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 17px;
+}
+
+.caption1-400 {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 17px;
+}
+
+.caption2-700 {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 16px;
+}
+
+.caption2-600 {
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 16px;
+}
+
+.caption2-500 {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 16px;
+}
+
+.caption2-400 {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+}
+
+.caption3-700 {
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 12px;
+}
+
+.caption3-600 {
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 12px;
+}
+
+.caption3-500 {
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 12px;
+}
+
+.caption3-400 {
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12px;
+}
